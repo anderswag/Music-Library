@@ -109,7 +109,8 @@ var addTrack = function (name, artist, album) {
 var addPlaylist = function (name) {
   var newPlaylist = uid();
   pl[newPlaylist] = {
-    id:newPlaylist
+    id:newPlaylist,
+    name:name
   }
   console.log(pl);
 }
